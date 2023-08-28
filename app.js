@@ -5,7 +5,7 @@ const PORT = process.env.PORT
   
 // LOGGER
 const logger = require("morgan");
-app.use(logger("shallow"))
+app.use(logger("tiny"))
 
 app.use("/",require("./routes/indexRoutes"))
 
